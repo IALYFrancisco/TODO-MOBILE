@@ -11,7 +11,7 @@ const Navbar = () =>{
                 <Text>{6} tasks</Text>
                 <View style={styles.search_container}>
                     <TextInput style={styles.textInput} placeholder='search a task'></TextInput>
-                    {/* <Image source={require('../assets/images/search.png')} width={5}></Image> */}
+                    <Image source={require('../assets/images/search.png')} style={{ width:16, height: 16, position:'absolute', right: 10 }}></Image>
                 </View>
             </View>
         </View>
@@ -56,6 +56,10 @@ const styles = StyleSheet.create({
     search_container:{
         width: '50%',
         height: 40,
+        position: 'relative',
+        display:'flex',
+        flexDirection: 'row',
+        alignItems: 'center'
     }
 })
 
