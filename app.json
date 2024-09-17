@@ -19,8 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff",
-        "package":"com.lumini.todomobile"
-      }
+      },
+      "package":"com.lumini.todomobile"
     },
     "web": {
       "bundler": "metro",
