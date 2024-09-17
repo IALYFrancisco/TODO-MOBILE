@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TODO-MOBILE",
-    "slug": "TODO-MOBILE",
+    "slug": "todo-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -18,7 +18,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "package":"com.lumini.todomobile"
       }
     },
     "web": {
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3c714aba-fafc-4610-85bb-174517b8642c"
+      }
+    },
+    "owner": "ialy_francisco"
   }
 }
